@@ -33,5 +33,7 @@
         console.log(`La suma de ${num1} y ${num2} es: ${suma}`);
     </script>
 
+    <p>Cambio realizado por Sara</p>
+
 </body>
 </html>
