@@ -16,7 +16,7 @@
 
     <p>Esto es otro párrafo, y si clickas aquí te saldrá otro mensaje</p>
     <script>
-        const p2 = document.querySelector('p:nth-child(2)');
+        const p2 = document.querySelectorAll('p')[1];  // Usamos querySelectorAll para acceder al segundo párrafo
         p2.addEventListener('click', () => {
             alert('Has hecho click en el segundo párrafo');
         });
