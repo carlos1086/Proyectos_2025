@@ -22,5 +22,16 @@
         });
     </script>
 
+    <?php
+    $num1 = 3;
+    $num2 = 5;
+    $suma = $num1 + $num2;
+    echo "La suma de $num1 y $num2 es: $suma";
+    ?>
+
+    <script>
+        console.log(`La suma de ${num1} y ${num2} es: ${suma}`);
+    </script>
+    
 </body>
 </html>
